@@ -1,2 +1,6 @@
-.next
+# .next
+docker-compose.yaml
+Dockerfile-dev
+Dockerfile-prod
+down.sh
 node_modules

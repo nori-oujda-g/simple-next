@@ -1,0 +1,5 @@
+FROM node:23-alpine
+# launch npm run build to generate the standalone, then launch docker compose
+COPY .next/standalone/. .
+EXPOSE 3000
+CMD ["node", "server.js"]
