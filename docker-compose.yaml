@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  web:
+    image: nor/next-simple
+    container_name: simple-next-v1
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    environment:
+      # - NODE_ENV=development
+      - NODE_ENV=production
+    volumes:
+      - .:/app
+    command: npm run start

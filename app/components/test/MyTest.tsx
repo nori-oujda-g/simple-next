@@ -1,13 +1,11 @@
 "use client";
-import { STATUS_COLOR, StatusColor } from '@/lib/features/client/clientApiSlice';
-import { ChangeEvent, useRef, useState } from 'react';
 
 const MyTest = () => {
-    const [val, setVal] = useState<StatusColor>({ id: 3, name: "Doctor", color: "green" });
-    const selRef = useRef();
+    // const [val, setVal] = useState<StatusColor>({ id: 3, name: "Doctor", color: "green" });
+    // const selRef = useRef();
     return (
         <div>
-            <select name="" id="" ref={selRef}
+            {/* <select name="" id="" ref={selRef}
                 onChange={(e: ChangeEvent<HTMLSelectElement>) => {
                     console.clear();
                     console.log(JSON.stringify(e.target.value));
@@ -35,7 +33,7 @@ const MyTest = () => {
                     alert(selRef.current.value)
                 }}
             >test2</button>
-            <h2>{val.id} - {val.name} - {val.color} </h2>
+            <h2>{val.id} - {val.name} - {val.color} </h2> */}
         </div>
     )
 }
