@@ -15,6 +15,7 @@ const links: NavProp[] = [
   { id: 4, link: 'clients', text: 'Clients' },
   { id: 5, link: 'test', text: 'Test' },
   { id: 6, link: 'TaskTable', text: 'task table' },
+  { id: 7, link: '/json', text: 'json' },
   // {id:100, link: '', text: '' },
 ]
 function MyNav() {
